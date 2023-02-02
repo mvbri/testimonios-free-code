@@ -13,10 +13,10 @@ function Testimonios(props) {
 			/>
 			<div className='container-text-testimony'>
 				<p className='name-testimony'>
-					{props.name} en {props.country}
+					<strong>{props.name}</strong> en <strong>{props.country}</strong>
 				</p>
 				<p className='name-charge'>
-					{props.charge} en {props.company}
+					{props.charge} en <strong>{props.company}</strong>
 				</p>
 				<p className='text-testimony'>"{props.testimony}"</p>
 			</div>
